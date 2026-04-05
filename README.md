@@ -77,28 +77,29 @@ npm run preview
 ```
 
 ## Project Structure
+```
 financehub/
-├── public/
 ├── src/
 │   ├── components/
-│   │   ├── Sidebar.jsx       # Collapsible sidebar navigation
-│   │   └── Topbar.jsx        # Header with role switcher and dark mode toggle
+│   │   ├── Sidebar.jsx
+│   │   └── Topbar.jsx
 │   ├── context/
-│   │   └── AppContext.jsx    # Global state using React Context
+│   │   └── AppContext.jsx
 │   ├── data/
-│   │   └── transactions.js   # Mock data and constants
+│   │   └── transactions.js
 │   ├── pages/
-│   │   ├── Dashboard.jsx     # Overview with charts and summary cards
-│   │   ├── Transactions.jsx  # Transaction list with CRUD
-│   │   ├── Insights.jsx      # Spending insights and category breakdown
-│   │   └── Settings.jsx      # Profile, theme, notifications
-│   ├── App.jsx               # Root layout and error boundary
-│   ├── main.jsx              # Entry point
-│   └── index.css             # Tailwind imports and global styles
+│   │   ├── Dashboard.jsx
+│   │   ├── Transactions.jsx
+│   │   ├── Insights.jsx
+│   │   └── Settings.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
 ├── index.html
 ├── vite.config.js
 ├── tailwind.config.js
 └── package.json
+```
 
 ## State Management
 
